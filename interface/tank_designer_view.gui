@@ -297,11 +297,11 @@ guiTypes = {
 			instantTextboxType = {
 					name = "base_stats_label"
 					position = { x = 14 y = 34 }
-					font = "hoi_20bs"
+					font = "hoi4_typewriter22"
 					text = "DESIGNER_BASE_STATS_LABEL"
 					maxWidth = 165
 					maxHeight = 20
-					format = center
+					format = left
 					fixedsize = yes
 				}
 
@@ -331,11 +331,11 @@ guiTypes = {
 			instantTextboxType = {
 					name = "combat_stats_label"
 					position = { x = 187 y = 34 }
-					font = "hoi_20bs"
+					font = "hoi4_typewriter22"
 					text = "DESIGNER_COMBAT_STATS_LABEL"
 					maxWidth = 165
 					maxHeight = 20
-					format = center
+					format = left
 					fixedsize = yes
 				}
 
@@ -365,11 +365,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "misc_stats_label"
 				position = { x = 362 y = 34 }
-				font = "hoi_20bs"
+				font = "hoi4_typewriter22"
 				text = "FE_MISC_STATS"
 				maxWidth = 165
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes
 			}
 
@@ -961,7 +961,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "toggle_comparison_button"
-			position = {x=-97 y=6}
+			position = {x=-97 y=4}
 			spriteType = "GFX_equip_overview_button"
 			orientation = "UPPER_RIGHT"
 			clicksound = click_default
@@ -970,7 +970,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 8 }
+			position = { x = -44 y = 6 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -1272,11 +1272,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "base_stats_label"
 				position = { x = 15 y = 5 }
-				font = "hoi_20bs"
+				font = "hoi4_typewriter22"
 				text = "DESIGNER_BASE_STATS_LABEL"
 				maxWidth = 165
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes
 			}
 
@@ -1306,11 +1306,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "combat_stats_label"
 				position = { x = 188 y = 5 }
-				font = "hoi_20bs"
+				font = "hoi4_typewriter22"
 				text = "DESIGNER_COMBAT_STATS_LABEL"
 				maxWidth = 165
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes
 			}
 
@@ -1340,11 +1340,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "misc_stats_label"
 				position = { x = 363 y = 5 }
-				font = "hoi_20bs"
+				font = "hoi4_typewriter22"
 				text = "FE_MISC_STATS"
 				maxWidth = 165
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes
 			}
 

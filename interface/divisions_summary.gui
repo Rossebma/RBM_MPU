@@ -7,7 +7,6 @@ guiTypes = {
 			name = "button"
 			quadTextureSprite = "GFX_tiled_window_transparent"
 			clicksound = click_default
-			
 		}
 
 		iconType = {

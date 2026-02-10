@@ -252,10 +252,10 @@ guiTypes = {
 			}
 		}
 
-		containerWindowType = { #MPU
+		containerWindowType = {
 			name = "div_templ_custom_icon_view"
 			position = { x=0 y=95 }
-			size = { width=1045 height=100%% }
+			size = { width=375 height=100%% }
 			moveable = yes
 			fade_time = 500
 			fade_type = linear
@@ -294,7 +294,7 @@ guiTypes = {
 				position = { x=11 y=88 }
 				size = { width=355 height=100%% }
 				slotsize = { width=84 height=50 }
-				max_slots_horizontal = 12
+				max_slots_horizontal = 4
 				format = "UPPER_LEFT"
 			}
 		}

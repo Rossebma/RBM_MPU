@@ -73,25 +73,25 @@ guiTypes = {
 	containerWindowType = {
 		name = "orders_group_item"
 		position = { x=0 y=0 }
-		size = { width=32 height=23 } #RBM
+		size = { width=23 height=23 }
 		
 		buttonType = {
 			name ="army_item_bg"
 			quadTextureSprite = "GFX_theatre_army_shield"	
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -2 }
 		}
 
 		iconType = {
 			name ="army_item_frame"
 			quadTextureSprite = "GFX_theatre_army_shield_selected"	
 			alwaystransparent = yes
-			position = { x = -1 y = 0 }
+			position = { x = -1 y = -2 }
 		}
 
 		iconType = {
 			name ="orders_group_item_training"
 			quadTextureSprite = "GFX_exercise_icon_anim_strip"
-			position = { x = 23 y = 1 } #RBM
+			position = { x = 13 y = 1 }
 			pdx_tooltip = "UNITS_VIEW_EXERCISING"
 			scale = 0.8
 		}
@@ -99,7 +99,7 @@ guiTypes = {
 		iconType = {
 			name = "icn_exercise_stop_at_max"
 			spriteType = "GFX_exercise_stop_at_max"
-			position = { x = 24 y = 1 } #RBM
+			position = { x = 14 y = 1 }
 			scale = 0.7
 			alwaystransparent = yes
 		}
@@ -107,12 +107,12 @@ guiTypes = {
 		iconType = {
 			name ="orders_group_item_border_conflict"
 			quadTextureSprite = "GFX_border_war_theatre_icon"
-			position = { x = 23 y = 0 } #RBM
+			position = { x = 13 y = 0 }
 		}
 		
 		instantTextBoxType = {
 			name = "armies_count_box"
-			position = { x = 20 y = 10 } #RBM
+			position = { x = 10 y = 10 }
 			font = "hoi_18mbs"
 			maxWidth = 28
 			maxHeight = 23
@@ -265,7 +265,7 @@ guiTypes = {
 			position = { x = 10 y = 43 }
 			size = { x = 260 y = 23 }
 			format = left
-			spacing = 12.0
+			spacing = 8.0
 		}
 		
 		OverlappingElementsBoxType = {
@@ -761,7 +761,7 @@ guiTypes = {
 			position = { x = 10 y = -6 }
 			size = { x = 260 y = 23 }
 			format = left
-			spacing = 12.0
+			spacing = 8.0
 		}
 	}
 
@@ -789,7 +789,7 @@ guiTypes = {
 			size = { x = 270 y = 23 }
 			first_on_top = yes
 			format = left
-			spacing = 20.0
+			spacing = 8.0
 		}
 
 		buttonType = {
@@ -845,7 +845,7 @@ guiTypes = {
 			size = { x = 223 y = 23 }
 			first_on_top = yes
 			format = left
-			spacing = 20.0
+			spacing = 8.0
 		}
 
 		buttonType = {
@@ -908,7 +908,7 @@ guiTypes = {
 			position = { x = 10 y = 43 }
 			size = { x = 260 y = 23 }
 			format = left
-			spacing = 8
+			spacing = 8.0
 		}
 
 		buttonType = {
@@ -940,7 +940,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "air_theatre_wing_item"
 		position = { x=0 y=0 }
-		size = { width=43 height=23 }
+		size = { width=23 height=23 }
 
 		buttonType = {
 			name ="background"
@@ -957,7 +957,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "air_wing_count_box"
-			position = { x = 12 y = 10 }
+			position = { x = 6 y = 10 }
 			font = "hoi_18mbs"
 			maxWidth = 36
 			maxHeight = 23
@@ -1027,7 +1027,7 @@ guiTypes = {
 			position = { x = 10 y = 43 }
 			size = { x = 260 y = 23 }
 			format = left
-			spacing = 2.0
+			spacing = 8.0
 		}
 
 		instantTextBoxType = {
@@ -1062,7 +1062,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "air_theatre_group_row_item"
 		position = { x=0 y=0 }
-		size = { width=43 height=33 }
+		size = { width=23 height=33 }
 		clipping = no
 
 		buttonType = {
@@ -1083,31 +1083,31 @@ guiTypes = {
 			size = { x = 270 y = 23 }
 			first_on_top = yes
 			format = left
-			spacing = 0
+			spacing = 8.0
 		}
 	}
 
 	containerWindowType = {
 		name = "air_theatre_group_item"
 		position = { x=0 y=0 }
-		size = { width=43 height=23 }
+		size = { width=23 height=23 }
 
 		buttonType = {
 			name ="background"
 			quadTextureSprite = "GFX_theatre_army_shield"
-			position = { x = 0 y = -3 }
+			position = { x = 0 y = -2 }
 		}
 
 		iconType = {
 			name ="selected_group_frame"
 			quadTextureSprite = "GFX_theatre_army_shield_selected"
 			alwaystransparent = yes
-			position = { x = 0 y = -3 }
+			position = { x = -1 y = -2 }
 		}
 
 		instantTextBoxType = {
 			name = "air_wing_count_box"
-			position = { x = 22 y = 14 }
+			position = { x = 6 y = 10 }
 			font = "hoi_18mbs"
 			maxWidth = 36
 			maxHeight = 23

@@ -323,11 +323,11 @@ guiTypes = {
 			instantTextboxType = {
 					name = "base_stats_label"
 					position = { x = 14 y = 34 }
-					font = "hoi_20bs"
+					font = "hoi4_typewriter22"
 					text = "DESIGNER_BASE_STATS_LABEL"
 					maxWidth = 165
 					maxHeight = 20
-					format = center
+					format = left
 					fixedsize = yes
 				}
 			
@@ -357,11 +357,11 @@ guiTypes = {
 			instantTextboxType = {
 					name = "combat_stats_label"
 					position = { x = 187 y = 34 }
-					font = "hoi_20bs"
+					font = "hoi4_typewriter22"
 					text = "DESIGNER_COMBAT_STATS_LABEL"
 					maxWidth = 165
 					maxHeight = 20
-					format = center
+					format = left
 					fixedsize = yes
 				}
 			
@@ -394,11 +394,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "equipment_stats_label"
 				position = { x = 362 y = 34 }
-				font = "hoi_20bs"
+				font = "hoi4_typewriter22"
 				text = "DESIGNER_EQUIPMENT_STATS_LABEL"
 				maxWidth = 165
 				maxHeight = 20
-				format = center
+				format = left
 				fixedsize = yes
 			}
 
@@ -1015,7 +1015,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "div_templ_custom_icon_view"
 			position = { x=13 y=47 }
-			size = { width=1035 height=447 }
+			size = { width=532 height=447 }
 			moveable = no
 			fade_time = 500
 			fade_type = linear
@@ -1054,7 +1054,7 @@ guiTypes = {
 				position = { x=4 y=44 }
 				size = { width=504 height=400 }
 				slotsize = { width=84 height=50 }
-				max_slots_horizontal = 12
+				max_slots_horizontal = 6
 				format = "UPPER_LEFT"
 			}
 		}
@@ -1435,7 +1435,7 @@ guiTypes = {
 			name = "count"
 			position = { x = 78 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "hoi4_typewriter16_inverted"
 			borderSize = { x = 0 y = 0 }
 			text = "count"
 			maxWidth = 86
@@ -1447,7 +1447,7 @@ guiTypes = {
 			name = "label"
 			position = { x = 0 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "hoi4_typewriter16_inverted"
 			borderSize = { x = 0 y = 0 }
 			text = "Name"
 			maxWidth = 130

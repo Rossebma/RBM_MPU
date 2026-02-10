@@ -3,15 +3,15 @@ guiTypes = {
 	containerWindowType = {
 		name = "color_picker_preset_entry2"
 		position = { x = 0 y  = 0 }
-		size = { width = 15 height = 15 }
+		size = { width = 25 height = 25 }
 		Orientation = upper_left
 		
 		buttonType = {
 			name = "button"
 			quadTextureSprite = "GFX_tiled_window_color_picker"
-			size = { x = 15 y = 15 }
+			size = { x = 25 y = 25 }
 			position = { x=0 y =0}	
-			scale = 0.5
+			scale = 0.8
 		}
 	}
 	
@@ -30,7 +30,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "insignia_selection_window"
 		position = {x=-175 y=-300}
-		size = { width = 518 height = 400 }
+		size = { width = 350 height = 400 }
 		Orientation = center
 		clipping = no
 		animation_time = 400
@@ -43,7 +43,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "btn_close"
-			position = {x=484 y=3}
+			position = {x=282 y=4}
 			spriteType = "GFX_NV_btn_close"
 			pdx_tooltip = "DESELECT_UNIT"
 			shortcut = "ESCAPE"
@@ -66,25 +66,25 @@ guiTypes = {
 		containerWindowType = {
 			name ="group_detail"
 			position = { x = 0 y = 41 }
-			size = { width = 400 height = 108 }
+			size = { width = 350 height = 108 }
 		
 			background = {
 				name = "Background"
-				position = { x = 74 y = 4}
+				position = { x = 25 y = 3}
 				quadTextureSprite ="GFX_group_name_bg"
 			}
 			
 			iconType = {
 				name ="group_icon"
 				spriteType = "GFX_theatre_army_shield"	
-				position = { x = 26 y = -1 }
+				position = { x = 18 y = 0 }
 			}
 			
 			
 			editBoxType = {
 				name = "group_name"
-				position = { x = 80 y = 6 }
-				size = {x=390 y=23}
+				position = { x = 55 y = 6 }
+				size = {x=235 y=23}
 				font = "hoi_18"
 				text = ""
 				#maxWidth = 300
@@ -96,23 +96,23 @@ guiTypes = {
 		containerWindowType = {
 			name = "insignia_list"
 			position = { x = 22 y = 83 }
-			size = { width = 456 height = 223 } #RBM
+			size = { width = 280 height = 223 }
 			verticalScrollbar = "right_vertical_slider"	
 			
 			margin = { top = 0 left = 0 bottom = 0 right = 25}
 			
 			background = {
 				name = "Background"
-				position = { x = 0 y = -10 }
+				position = { x = -8 y = -10 }
 				quadTextureSprite ="GFX_parch_bg"
 			}
 			
 			gridBoxType = {
 				name = "item_grid"
-				position = { x = 10 y = 5 }
-				size = { width = 420 height = 206 } #RBM
+				position = { x = 5 y = 5 }
+				size = { width = 252 height = 206 }
 				slotsize = { width = 42 height = 44 }
-				max_slots_horizontal = 10 #RBM
+				max_slots_horizontal = 6
 				format = "UPPER_LEFT"
 			}	
 		}
@@ -124,11 +124,11 @@ guiTypes = {
 			gridBoxType = {
 				name = "presets"
 				position = { x = 213 y = 17 }
-				size = { width = 150 height = 100 }
-				slotsize = { width = 15 height = 15 }
+				size = { width = 50 height = 100 }
+				slotsize = { width = 25 height = 25 }
 				format = "UPPER_LEFT"
-				max_slots_horizontal = 14
-				max_slots_vertical = 5
+				max_slots_horizontal = 3
+				max_slots_vertical = 3
 			}
 			
 			iconType = {

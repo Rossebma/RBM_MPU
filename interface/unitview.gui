@@ -3,15 +3,15 @@ guiTypes = {
 	containerWindowType = {
 		name = "color_picker_preset_entry"
 		position = { x = 0 y  = 0 }
-		size = { width = 15 height = 15 }
+		size = { width = 25 height = 25 }
 		Orientation = upper_left
 
 		buttonType = {
 			name = "button"
 			quadTextureSprite = "GFX_tiled_window_color_picker"
-			size = { x = 15 y = 15 }
+			size = { x = 25 y = 25 }
 			position = { x=0 y =0}
-			scale = 0.5
+			scale = 0.8
 		}
 	}
 
@@ -751,7 +751,7 @@ guiTypes = {
 			name = "divisions_summary_max_item_count"
 			 # x is used to set the max number of items that will be displayed in the divisions_summary. Any items
 			 # beyond that are not displayed.
-			position = { x=6 y=0 }
+			position = { x=11 y=0 }
 		}
 	}
 
@@ -1368,7 +1368,7 @@ guiTypes = {
 		name = "army_division_view"
 		position = {x=0 y=0}
 		Orientation = upper_left
-		size = {width=180 height=35}
+		size = {width=180 height=33}
 		clipping = no
 
 		buttonType = {
