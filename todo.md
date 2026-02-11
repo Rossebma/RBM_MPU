@@ -1,2 +1,0 @@
-- [x] Naval Headquarters Icon Redesign
-- [x] Rangers Division Icon Fix
