@@ -18,4 +18,10 @@ spriteTypes = {
 		name = "GFX_main_screens_bottom_politics_view"
 		texturefile = "gfx//interface//main_screens_bottom_politics_view.dds"
 	}
+
+	spriteType = {
+		name = "GFX_icon_button_46x46_rbm"
+		texturefile = "gfx//interface//buttons//icon_button_46x46_rbm.dds"
+		noOfFrames = 2
+	}
 }
