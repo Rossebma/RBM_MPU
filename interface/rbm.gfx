@@ -1,0 +1,21 @@
+spriteTypes = {
+	# Politics view
+	corneredTileSpriteType = { # BG for lower half
+		name = "GFX_tiled_window_1b_border_politics_view"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_1b_border_politics_view.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = { # Header Sprites for lower half
+		name = "GFX_category_header_politics"
+		textureFile = "gfx/interface/category_header_politics.dds"
+	}	
+
+	spriteType = { # Occupied button bg
+		name = "GFX_main_screens_bottom_politics_view"
+		texturefile = "gfx//interface//main_screens_bottom_politics_view.dds"
+	}
+}

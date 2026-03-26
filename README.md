@@ -53,7 +53,3 @@
 - **MPU Icon Series** – original design inspiration
 - **Color Blindness Mod** – inspiration for accessibility adjustments
 - Other contributors: See [Credits file](CREDITS.md)
-
----
-
-© RBM – Fan-made project for Hearts of Iron IV. Not affiliated with, endorsed by, or sponsored by Paradox Interactive.
