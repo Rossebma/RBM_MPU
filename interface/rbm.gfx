@@ -1,27 +1,84 @@
 spriteTypes = {
 	# Politics view
-	corneredTileSpriteType = { # BG for lower half
+	corneredTileSpriteType = {
+		# BG for lower half
 		name = "GFX_tiled_window_1b_border_politics_view"
-		size= { x=192 y=192 }
+		size = {
+			x = 192
+			y = 192
+		}
 		textureFile = "gfx//interface//tiles//tiled_window_1b_border_politics_view.dds"
-		borderSize = { x=64 y=64 }
+		borderSize = {
+			x = 64
+			y = 64
+		}
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-
-	spriteType = { # Header Sprites for lower half
+	spriteType = {
+		# Header Sprites for lower half
 		name = "GFX_category_header_politics"
 		textureFile = "gfx/interface/category_header_politics.dds"
-	}	
-
-	spriteType = { # Occupied button bg
+	}
+	spriteType = {
+		# Occupied button bg
 		name = "GFX_main_screens_bottom_politics_view"
 		texturefile = "gfx//interface//main_screens_bottom_politics_view.dds"
 	}
-
 	spriteType = {
 		name = "GFX_icon_button_46x46_rbm"
 		texturefile = "gfx//interface//buttons//icon_button_46x46_rbm.dds"
 		noOfFrames = 2
 	}
+	# National Focus
+	spriteType = {
+		name = "GFX_pol_goal_bg"
+		textureFile = "gfx//interface//rbm//focus//pol_goal_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	progressbartype = {
+		name = "GFX_activegoal_progress"
+		color = {
+			0
+			0.5
+			0
+		}
+		colortwo = {
+			1
+			0
+			0
+		}
+		textureFile1 = "gfx//interface//rbm//focus//pol_goal_progress.dds"
+		textureFile2 = "gfx//interface//rbm//focus//pol_goal_progress_bg.dds"
+		size = {
+			x = 237
+			y = 6
+		}
+		effectFile = "gfx/FX/progress_startend.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_pol_goal_progress_frame"
+		textureFile = "gfx//interface//rbm//focus//pol_goal_progress_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_add_national_goal_button"
+		textureFile = "gfx//interface//rbm//focus//add_national_goal_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = { # header for all views?!?
+		name = "GFX_construction_header_bg_rbm"
+		texturefile = "gfx//interface//rbm//windowparts//construction_header_bg_rbm.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_plain_bg_rbm"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_plain_bg_rbm.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}	
 }
