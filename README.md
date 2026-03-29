@@ -2,7 +2,7 @@
 
 **RBM’s GFX Overhaul** is a comprehensive graphical overhaul for *Hearts of Iron IV*, restoring, modernizing, and extending classic MPU-style assets — with the goal of improving readability, accessibility, and visual clarity across the UI and map.
 
-> ⚠️ **Gameplay unchanged** – purely visual edits, fully multiplayer-friendly.  
+> ⚠️ **Gameplay unchanged** – purely visual edits,
 > ❌ Not achievement-compatible (due to graphical overrides).
 
 ---
