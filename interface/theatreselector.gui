@@ -150,35 +150,35 @@ guiTypes = {
 
 		iconType = {
 			name = "training_icon"
-			position = { x=11 y=-4 }
+			position = { x=-12 y=-6 }
 			spriteType = "GFX_NV_training_anim_strip"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "spotting_icon"
-			position = { x=11 y=-4 }
+			position = { x=-12 y=-6 }
 			spriteType = "GFX_NV_spotting_anim_strip"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "in_combat_icon"
-			position = { x=11 y=-4 }
+			position = { x=-12 y=-6 }
 			spriteType = "GFX_NV_in_combat"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "moving_to_combat_icon"
-			position = { x=11 y=-4 }
+			position = { x=-12 y=-6 }
 			spriteType = "GFX_NV_moving_to_combat"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "generic_mission_icon"
-			position = { x=11 y=-4 }
+			position = { x=-12 y=-6 }
 			spriteType = "GFX_NV_missions_icons_small"
 			alwaystransparent = yes
 		}
@@ -186,14 +186,14 @@ guiTypes = {
 		iconType = {
 			name = "training_will_stop_at_max_icon"
 			spriteType = "GFX_exercise_stop_at_max"
-			position = {x=11 y=2 }
+			position = {x=0 y=1 }
 			alwaystransparent = yes
 			scale = 0.7
 		}
 		
 		instantTextBoxType = {
 			name = "ship_count_box"
-			position = { x = 6 y = 10 }
+			position = { x = 23 y = 14 }
 			font = "hoi_18mbs"
 			maxWidth = 36
 			maxHeight = 23
