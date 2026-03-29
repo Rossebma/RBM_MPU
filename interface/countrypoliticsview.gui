@@ -181,6 +181,7 @@ guiTypes = {
 					quadTextureSprite = "GFX_icon_button_32x32"
 					position = { x = 180 y = -1}
 					pdx_tooltip = "VIEW_FACTION"
+					shortcut = "2"
 				}
 				
 				iconType = {
@@ -227,6 +228,7 @@ guiTypes = {
 						buttonFont = "hoi_16mbs"
 						Orientation = "UPPER_LEFT"
 						frame = 1
+						shortcut = "1"
 					}
 
 					iconType = {
@@ -653,6 +655,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_icon_button_46x46_rbm"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
+			shortcut = "3"
 		}
 
 		iconType = {
@@ -671,6 +674,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_icon_button_46x46_rbm"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
+			shortcut = "4"
 		}
 
 		iconType = {
@@ -691,6 +695,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_icon_button_46x46_rbm"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
+				shortcut = "5"
 			}
 
 			iconType = {
