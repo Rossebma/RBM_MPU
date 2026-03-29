@@ -193,7 +193,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "button_wrapper_container"
 	}
-
+	# toggle_model_selector_button
 	containerWindowType = {
 		name = "countrydivisiondesignerview"
 		position = { x=0 y=0}	
@@ -228,6 +228,15 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { x=100%% y=100%%}
 			}
+		}
+
+		buttonType = {
+			name = "toggle_model_selector_button"
+			position = { x=29 y=101 }
+			size = { x = 96 y = 90 }
+			quadTextureSprite ="GFX_division_3d_bg"	
+			pdx_tooltip = "TOGGLE_MODEL_SELECTOR"
+			clicksound = click_default
 		}
 			
 		iconType = {
