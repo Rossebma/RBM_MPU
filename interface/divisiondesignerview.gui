@@ -1,7 +1,6 @@
 guiTypes = {
 
-	containerWindowType = 
-	{
+	containerWindowType = {
 		name = "niche_selection_widget"
 		iconType = {
 			name = "niche_icon_bg"
@@ -74,8 +73,7 @@ guiTypes = {
 		}			
 	}
 	
-	containerWindowType =
-	{
+	containerWindowType = {
 		name = "division_equipment_archetype_entry"
 		position = { x = 0 y = 0 }
 		size = { width = 460 height = 30 }
@@ -99,8 +97,7 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType =
-	{
+	containerWindowType = {
 		name = "division_equipment_type_entry"
 		position = { x = 19 y = 0 }
 		size = { width = 441 height = 33 }
@@ -193,7 +190,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "button_wrapper_container"
 	}
-	# toggle_model_selector_button
+
 	containerWindowType = {
 		name = "countrydivisiondesignerview"
 		position = { x=0 y=0}	
@@ -707,7 +704,6 @@ guiTypes = {
 				name = "division_nametag_icon"
 				spriteType = "GFX_division_nametag_icon"
 				position = { x = 20 y = 2 }
-	#			position = { x = 174 y = 135 }
 			}
 
 			instantTextboxType = {
@@ -1139,7 +1135,6 @@ guiTypes = {
 		}
 	}
 
-	# Is override in code to index all possible symbols from subuniticons.gfx.
 	containerWindowType = {
 		name = "div_templ_custom_icon_button"
 		position = { x=0 y=0}	

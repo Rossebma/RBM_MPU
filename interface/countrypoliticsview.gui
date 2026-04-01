@@ -68,11 +68,6 @@ guiTypes = {
 			size = { width = 330 height = 70 }
 			clipping = no
 			
-#			background = {
-#				name = "Background"		
-#				spriteType ="GFX_pol_piechart_bg"
-#			}
-			
 			gridBoxType = {
 				name = "parties_grid"
 				position = { x = 260 y = 184 }
@@ -108,15 +103,6 @@ guiTypes = {
 			position = { x = 88 y = 305 }
 			size = { width = 255 height = 60 }
 			clipping = no
-					
-#			instantTextboxType = {
-#				name = "party"
-#				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
-#				text = "party"
-#				maxWidth = 155
-#				maxHeight = 20
-#			}
 			
 			instantTextboxType = {
 				name = "ideology"
@@ -425,12 +411,6 @@ guiTypes = {
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}
-		
-#		buttonType = {
-#			name = "show_subjects_button"
-#			position = { x = 482 y = 246 }
-#			quadTextureSprite = "GFX_subject_button"
-#		}
 		
 		containerWindowType = {
 			name = "active_goal"
@@ -743,7 +723,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-	
 	
 	containerWindowType = {
 		name = "political_ideas_window"
@@ -1728,7 +1707,8 @@ guiTypes = {
 			format = left
 		}
 		
-	containerWindowType = {
+	
+		containerWindowType = {
 		name = "occupied_entries_window"
 		position = { x = -356 y = 78 }	
 		show_position = { x = 2 y = 37 }
