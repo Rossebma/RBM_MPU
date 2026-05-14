@@ -136,7 +136,7 @@ Nlua = {
 
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 15                       -- Days of client lag for decrease of gamespeed
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30                             -- Days of client lag for pause of gamespeed.
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.400, 0.200, 0.100, 0.070, 0.000 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.500, 0.375, 0.250, 0.125, 0.000 } -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 24
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30

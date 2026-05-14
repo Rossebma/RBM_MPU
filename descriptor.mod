@@ -1,4 +1,4 @@
-version="1.1.0a"
+version="1.1.0b"
 tags={
 	"Graphics"
 	"Optimization"
