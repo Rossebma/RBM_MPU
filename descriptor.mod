@@ -11,5 +11,5 @@ dependencies={
 }
 name="RBM's GFX Overhaul"
 picture="thumbnail.png"
-supported_version="1.17.5.2"
+supported_version="1.18.1.0"
 remote_file_id="3496134789"
