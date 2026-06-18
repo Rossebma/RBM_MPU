@@ -180,7 +180,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_div_subunit_item_bg"
-		textureFile = "gfx//interface//div_subunit_item_bg.dds"
+		textureFile = "gfx//interface//divisiondesigner//div_subunit_item_bg.dds"
 		noOfFrames = 2
 	}
 
@@ -214,7 +214,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_div_unit_item_bg_wide"
-		textureFile = "gfx//interface//div_unit_item_bg_1.dds"
+		textureFile = "gfx//interface//divisiondesigner//div_unit_item_bg_1.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		noOfFrames = 2
 	}
@@ -339,7 +339,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_new_regiment_slot"
-		textureFile = "gfx//interface//new_regiment_slot.dds"
+		textureFile = "gfx//interface//divisiondesigner//new_regiment_slot.dds"
 	}
 	
 	spriteType = {
@@ -416,5 +416,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_equipment_header"
 		textureFile = "gfx/interface/division_equipment/equipment_header.dds"
-	}		
+	}
+
+
+
+	# RBM
+	corneredTileSpriteType = {
+		name = "GFX_divisiondesigner_popup_bg"
+		size= { x=637 y=560 }
+		textureFile = "gfx//interface//divisiondesigner//left_side_overlay.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}	
+
+	corneredTileSpriteType = {
+		name = "GFX_divisiondesigner_popup_right_bg"
+		size= { x=531 y=605 }
+		textureFile = "gfx//interface//divisiondesigner//right_side_overlay.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_divisiondesigner_3d_bg"
+		textureFile = "gfx//interface//divisiondesigner//divisiondesigner_3d_bg.dds"
+		borderSize = { x=16 y=16 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_closebutton_rbm"
+		texturefile = "gfx//interface//closebutton_rbm.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
 }
